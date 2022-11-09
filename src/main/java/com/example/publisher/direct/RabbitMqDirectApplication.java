@@ -1,13 +1,11 @@
-package com.example.spiringboot.rabbitmq;
+package com.example.publisher.direct;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpiringbootRabbitmqApplication {
-
+public class RabbitMqDirectApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SpiringbootRabbitmqApplication.class, args);
+        SpringApplication.run(RabbitMqDirectApplication.class, args);
     }
-
 }

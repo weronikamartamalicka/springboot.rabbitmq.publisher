@@ -1,6 +1,5 @@
-package com.example.spiringboot.rabbitmq;
+package com.example.publisher.simple;
 
-import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.amqp.rabbit.core.RabbitMessagingTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
