@@ -29,7 +29,7 @@ public class RabbitMqConfiguration {
 
     @Bean
     FanoutExchange fanoutExchange() {
-        return new FanoutExchange("exchange.fanout", true, false, null);
+        return new FanoutExchange("exchange.Fanout", true, false, null);
     }
 
     @Bean
