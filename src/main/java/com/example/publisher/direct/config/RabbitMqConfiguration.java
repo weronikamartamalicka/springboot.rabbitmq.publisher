@@ -61,7 +61,7 @@ public class RabbitMqConfiguration {
     }
 
     @Bean
-    PooledChannelConnectionFactory connectionFactory() throws Exception {
+    PooledChannelConnectionFactory connectionFactory() {
         ConnectionFactory rabbitConnectionFactory = new ConnectionFactory();
         rabbitConnectionFactory.setHost("localhost");
         PooledChannelConnectionFactory pooledChannelConnectionFactory =
